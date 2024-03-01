@@ -1,0 +1,280 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header {
+    background-color: #cccccc;
+    padding: 20px 0;
+  }
+  
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+.paginaInicial{
+  background: linear-gradient(#FEFEFE, #444444);
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0% 53%;
+  filter: grayscale(0.6) blur(1px);
+}
+
+.tituloPrincipal {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px auto;
+  clear: left;
+  padding-bottom: 20px;
+}
+
+.principal {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.principal p {
+  text-align: center;
+  font-size: 17px;
+  margin: 20px 50px;
+  line-height: 1.5;
+}
+
+.principal strong {
+  color: #000000;
+  font-weight: bold;
+}
+
+#mision {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 50px 10px;
+  border: none;
+  border-radius: 8px;
+  filter: drop-shadow(2px 2px 4px #4e4e4e);
+}
+
+.mapa {
+  padding: 45px 0;
+}
+
+.mapa p {
+  margin: 20px 0 30px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.mapaContenido {
+  width: 940px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 2px 4px #4e4e4e);
+}
+
+.diferenciales {
+  padding: 3em 0;
+}
+
+.contenidoDiferenciales {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.listaDiferenciales {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.items {
+  line-height: 1.5;
+}
+
+.items::before{
+  content: "• ";
+}
+
+.imagenDiferenciales {
+  width: 60%;
+  height: 230px;
+  object-fit: cover;
+  object-position: 0% 10%;
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px 4px #2c2c2c);
+}
+
+.video {
+  padding-top: 100px;
+  width: 560px;
+  margin: 1em auto;
+  filter: drop-shadow(2px 2px 4px #1f1e1e);
+}
+
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FEFEFE;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.productos li:hover {
+  border-color: #c78c19;
+}
+
+.productos li:active {
+  border-color: #088c19;
+}
+
+.productos h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.productos li:hover h2 {
+  font-size: 33px;
+}
+
+.descripcion {
+  font-size: 16px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.formulario {
+  width: 940px;
+  margin: 0 auto;
+  background-color: #FEFEFE;
+}
+
+table {
+  margin: 10px 0 0 0;
+}
+
+legend {
+  font-size: 20px;
+  margin: 40px 0 0 0;
+}
+
+thead {
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid #000000;
+  padding: 5px 62px;
+}
+
+form {
+  margin: 40px 0px;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0px;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #525151;
+  border: none;
+  border-radius: 5px;
+  transition: .2s all;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 4px #000000);
+}
+
+.enviar:hover{
+  background-color: darkgray;
+  transform: scale(1.01);
+}
+
+footer {
+  text-align: center;
+  background: url(imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.Copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .caja, .principal{
+    width: auto;
+  }
+}
